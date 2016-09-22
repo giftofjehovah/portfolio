@@ -4,8 +4,9 @@ import './style/App.css';
 class Showcase extends Component {
   render(){
     return(
-      <div className="Showcase-header">
-        Showcase.
+      <div className="Showcase-panel">
+        <h1 className="title">Showcase.</h1>
+        <hr/>
       </div>
     )
   }

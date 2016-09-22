@@ -4,8 +4,9 @@ import './style/App.css';
 class About extends Component {
   render(){
     return(
-      <div className="App-header">
-        To get started, edit <code>src/App.js</code> and save to reload.
+      <div className="About-panel" id="about">
+        <h1 className="title">About me.</h1>
+        <hr/>
       </div>
     )
   }

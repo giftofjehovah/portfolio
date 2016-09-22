@@ -4,11 +4,13 @@ import Cover from './Cover';
 import About from './About';
 import Showcase from './Showcase';
 import Contact from './Contact';
+import Navbar from './Navbar';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <Navbar />
         <Cover />
         <About />
         <Showcase />
