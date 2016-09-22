@@ -1,3 +1,69 @@
+$blue-white: #EAEAF1;
+
+/*Content*/
+.title{
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 20px;
+  text-transform: uppercase;
+
+  hr {
+    width: 30vw;
+    margin-top: 0;
+    color: white;
+  }
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+/*Navbar*/
+.navpage {
+
+}
+
+#hamburger {
+  border-radius: 100px;
+  position: fixed;
+  top: 0;
+  right: 20px;
+  z-index: 9999;
+  width: 40px;
+  height: 80px;
+}
+
+.menuItems{
+float: right;
+}
+
+.burgerBars {
+  position: absolute;
+  height: 5%;
+  left: 0px;
+  right: 0px;
+  opacity: 1;
+  background: white;
+
+  &:nth-child(1){
+    top: 20%;
+  }
+  &:nth-child(2){
+    top: 40%;
+  }
+  &:nth-child(3){
+    top: 60%;
+  }
+}
+
+#hamburger:hover > * {
+  background: pink;
+}
+
 /*Cover*/
 .Cover-panel {
   position:relative;
@@ -21,56 +87,18 @@
   margin-top: -100px
 }
 
-// .logo {
-//   text-align: center;
-//   vertical-align: middle;
-//   line-height: 700px;
-// }
-
 /*About*/
 .About-panel {
   height: 700px;
-  background-color: pink;
+  background-color: $blue-white;
 }
 /*Showcase*/
 .Showcase-panel {
   height: 700px;
+  background-color: #717163;
 }
 /*Contact Me*/
 .Contact-panel {
   height: 700px;
-  background-color: pink;
+  background-color: #CFCDCD;
 }
-
-
-// .App {
-//   text-align: center;
-// }
-//
-// .App-logo {
-//   animation: App-logo-spin infinite 20s linear;
-//   height: 80px;
-// }
-//
-// .App-header {
-//   background-color: #222;
-//   height: 150px;
-//   padding: 20px;
-//   color: white;
-// }
-//
-// .Showcase-header {
-//   background-color: pink;
-//   height: 150px;
-//   padding: 20px;
-//   color: white;
-// }
-//
-// .App-intro {
-//   font-size: large;
-// }
-//
-// @keyframes App-logo-spin {
-//   from { transform: rotate(0deg); }
-//   to { transform: rotate(360deg); }
-// }

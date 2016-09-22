@@ -1,3 +1,49 @@
+/*Content*/
+.title {
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 20px;
+  text-transform: uppercase; }
+  .title hr {
+    width: 30vw;
+    margin-top: 0;
+    color: white; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+/*Navbar*/
+#hamburger {
+  border-radius: 100px;
+  position: fixed;
+  top: 0;
+  right: 20px;
+  z-index: 9999;
+  width: 40px;
+  height: 80px; }
+
+.menuItems {
+  float: right; }
+
+.burgerBars {
+  position: absolute;
+  height: 5%;
+  left: 0px;
+  right: 0px;
+  opacity: 1;
+  background: white; }
+  .burgerBars:nth-child(1) {
+    top: 20%; }
+  .burgerBars:nth-child(2) {
+    top: 40%; }
+  .burgerBars:nth-child(3) {
+    top: 60%; }
+
+#hamburger:hover > * {
+  background: pink; }
+
 /*Cover*/
 .Cover-panel {
   position: relative;
@@ -22,15 +68,16 @@
 /*About*/
 .About-panel {
   height: 700px;
-  background-color: pink; }
+  background-color: #EAEAF1; }
 
 /*Showcase*/
 .Showcase-panel {
-  height: 700px; }
+  height: 700px;
+  background-color: #717163; }
 
 /*Contact Me*/
 .Contact-panel {
   height: 700px;
-  background-color: pink; }
+  background-color: #CFCDCD; }
 
 /*# sourceMappingURL=App.css.map */
