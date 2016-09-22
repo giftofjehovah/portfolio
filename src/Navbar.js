@@ -21,11 +21,13 @@ class Navbar extends Component {
 
     if (this.state.showMenu) {
       menuLinks =
-      <ul>
-        <li><a href="#about">About me</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact">Contact Me</a></li>
-      </ul>;
+      <div className="page">
+        <div className="menuContent">
+          <a href="#about">About me</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact Me</a>
+        </div>
+      </div>;
     }
 
     return(
