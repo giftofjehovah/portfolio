@@ -154,9 +154,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow: hidden;
-  > div {
-    width: 40%;
-    min-height: 100%;
+  > div:first-child {
+    width: 30%;
+    height: 430px;
     float: left;
     background-color: white;
     padding: 0 60px;
@@ -179,6 +179,15 @@ body {
           cursor: pointer;
         }
       }
+    }
+  }
+
+  > div {
+    width-left: 30%;
+    height: 430px;
+    background-color: rgba(0,0,0,0.4);
+    h3 {
+      color: white;
     }
   }
 }

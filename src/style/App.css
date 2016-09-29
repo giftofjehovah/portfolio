@@ -135,13 +135,13 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow: hidden; }
-  .Education-panel > div {
-    width: 40%;
-    min-height: 100%;
+  .Education-panel > div:first-child {
+    width: 30%;
+    height: 430px;
     float: left;
     background-color: white;
     padding: 0 60px; }
-    .Education-panel > div h1 {
+    .Education-panel > div:first-child h1 {
       text-align: left;
       margin-bottom: 0;
       padding-top: 20px;
@@ -150,17 +150,23 @@ body {
       font-family: 'Archivo Narrow', sans-serif;
       font-weight: bold;
       letter-spacing: 3px; }
-    .Education-panel > div ul {
+    .Education-panel > div:first-child ul {
       text-align: left; }
-      .Education-panel > div ul p {
+      .Education-panel > div:first-child ul p {
         font-family: 'Open Sans', sans-serif;
         font-weight: bolder;
         margin: 0;
         text-transform: uppercase; }
-      .Education-panel > div ul > div {
+      .Education-panel > div:first-child ul > div {
         padding: 10px; }
-        .Education-panel > div ul > div:hover {
+        .Education-panel > div:first-child ul > div:hover {
           border: 2px solid black;
           cursor: pointer; }
+  .Education-panel > div {
+    width-left: 30%;
+    height: 430px;
+    background-color: rgba(0, 0, 0, 0.4); }
+    .Education-panel > div h3 {
+      color: white; }
 
 /*# sourceMappingURL=App.css.map */
