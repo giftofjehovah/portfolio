@@ -5,7 +5,7 @@ class Showcase extends Component {
   render(){
     return(
       <div className="Showcase-panel">
-        <h1 className="title">Showcase.</h1>
+        <h1 className="title">Portfolio</h1>
         <hr/>
       </div>
     )

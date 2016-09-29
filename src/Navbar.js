@@ -31,8 +31,8 @@ class Navbar extends Component {
     }
 
     return(
-      <div className="navpage">
-        <div onClick={this._menuClick.bind(this)} id="hamburger">
+      <div className="navpage" onClick={this._menuClick.bind(this)}>
+        <div id="hamburger">
           <span className="burgerBars"></span>
           <span className="burgerBars"></span>
           <span className="burgerBars"></span>
