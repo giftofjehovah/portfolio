@@ -1,4 +1,24 @@
+/* Mixins */
+/*Content*/
 * {
+  font-family: 'Open Sans', sans-serif; }
+
+.title {
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px; }
+
+hr {
+  width: 30px; }
+
+body {
+  margin: 0;
+  padding: 0;
   font-family: 'Open Sans', sans-serif; }
 
 /*Navbar*/
@@ -107,23 +127,40 @@
   margin: 20px;
   background-color: #CFCDCD; }
 
-/*Content*/
-.title {
+/*Education*/
+.Education-panel {
   text-align: center;
-  margin-bottom: 0;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  text-transform: uppercase;
-  font-family: 'Archivo Narrow', sans-serif;
-  font-weight: bold;
-  letter-spacing: 3px; }
-
-hr {
-  width: 30px; }
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans', sans-serif; }
+  background-image: url("https://static.pexels.com/photos/7100/iphone-desk-laptop-notebook.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden; }
+  .Education-panel > div {
+    width: 40%;
+    min-height: 100%;
+    float: left;
+    background-color: white;
+    padding: 0 60px; }
+    .Education-panel > div h1 {
+      text-align: left;
+      margin-bottom: 0;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      text-transform: uppercase;
+      font-family: 'Archivo Narrow', sans-serif;
+      font-weight: bold;
+      letter-spacing: 3px; }
+    .Education-panel > div ul {
+      text-align: left; }
+      .Education-panel > div ul p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bolder;
+        margin: 0;
+        text-transform: uppercase; }
+      .Education-panel > div ul > div {
+        padding: 10px; }
+        .Education-panel > div ul > div:hover {
+          border: 2px solid black;
+          cursor: pointer; }
 
 /*# sourceMappingURL=App.css.map */
