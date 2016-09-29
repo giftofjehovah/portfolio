@@ -1,3 +1,6 @@
+* {
+  font-family: 'Open Sans', sans-serif; }
+
 /*Navbar*/
 .page {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */
@@ -56,12 +59,13 @@
     top: 60%; }
 
 #hamburger:hover > * {
-  background: pink; }
+  background: pink;
+  cursor: pointer; }
 
 /*Cover*/
 .Cover-panel {
   position: relative;
-  height: 750px;
+  height: 800px;
   background-image: url("../images/background.jpg");
   background-size: cover;
   background-position: top center;
@@ -82,21 +86,23 @@
 /* Panel mixins */
 /*About*/
 .About-panel {
-  height: 100vh;
+  height: 100%;
   border: 2px solid black;
   margin: 20px;
-  background-color: "none"; }
+  background-color: "none";
+  padding: 100px 300px;
+  text-align: center; }
 
 /*Showcase*/
 .Showcase-panel {
-  height: 100vh;
+  height: 100%;
   border: 2px solid black;
   margin: 20px;
   background-color: #717163; }
 
 /*Contact Me*/
 .Contact-panel {
-  height: 100vh;
+  height: 100%;
   border: 2px solid black;
   margin: 20px;
   background-color: #CFCDCD; }
@@ -106,14 +112,14 @@
   text-align: center;
   margin-bottom: 0;
   padding-top: 20px;
+  padding-bottom: 10px;
   text-transform: uppercase;
   font-family: 'Archivo Narrow', sans-serif;
   font-weight: bold;
   letter-spacing: 3px; }
-  .title hr {
-    width: 30vw;
-    margin-top: 0;
-    color: white; }
+
+hr {
+  width: 30px; }
 
 body {
   margin: 0;

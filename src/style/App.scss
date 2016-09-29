@@ -1,5 +1,9 @@
 $blue-white: #EAEAF1;
 
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 /*Navbar*/
 .page {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */
@@ -62,12 +66,13 @@ $blue-white: #EAEAF1;
 
 #hamburger:hover > * {
   background: pink;
+  cursor: pointer;
 }
 
 /*Cover*/
 .Cover-panel {
   position:relative;
-  height:750px;
+  height:800px;
   background-image: url("../images/background.jpg");
   background-size: cover;
   background-position: top center;
@@ -89,7 +94,7 @@ $blue-white: #EAEAF1;
 
 /* Panel mixins */
 @mixin panel($bg-color){
-  height: 100vh;
+  height: 100%;
   border: 2px solid black;
   margin: 20px;
   background-color: $bg-color;
@@ -98,6 +103,8 @@ $blue-white: #EAEAF1;
 /*About*/
 .About-panel {
   @include panel('none');
+  padding: 100px 300px;
+  text-align: center;
 }
 /*Showcase*/
 .Showcase-panel {
@@ -114,16 +121,15 @@ $blue-white: #EAEAF1;
   text-align: center;
   margin-bottom: 0;
   padding-top: 20px;
+  padding-bottom: 10px;
   text-transform: uppercase;
   font-family: 'Archivo Narrow', sans-serif;
   font-weight: bold;
   letter-spacing: 3px;
+}
 
-  hr {
-    width: 30vw;
-    margin-top: 0;
-    color: white;
-  }
+hr {
+  width: 30px;
 }
 
 
