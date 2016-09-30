@@ -157,10 +157,14 @@ body {
         font-weight: bolder;
         margin: 0;
         text-transform: uppercase; }
-      .Education-panel > div:first-child ul > div {
-        padding: 10px;
-        border: 2px solid white; }
-        .Education-panel > div:first-child ul > div:hover {
+      .Education-panel > div:first-child ul .bordered {
+        border: 2px solid black;
+        cursor: pointer; }
+      .Education-panel > div:first-child ul div {
+        padding: 5px 5px 0 5px;
+        border: 2px solid white;
+        margin-bottom: 10px; }
+        .Education-panel > div:first-child ul div:hover {
           border: 2px solid black;
           cursor: pointer; }
   .Education-panel > div {
@@ -168,6 +172,7 @@ body {
     height: 430px;
     background-color: rgba(0, 0, 0, 0.4); }
     .Education-panel > div h3 {
+      padding-top: 20px;
       color: white; }
 
 /*# sourceMappingURL=App.css.map */

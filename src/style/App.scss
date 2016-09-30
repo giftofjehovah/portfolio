@@ -171,10 +171,14 @@ body {
         margin: 0;
         text-transform: uppercase;
       }
-      > div {
-        padding: 10px;
+      .bordered {
+        border: 2px solid black;
+        cursor: pointer;
+      }
+      div {
+        padding: 5px 5px 0 5px;
         border: 2px solid white;
-
+        margin-bottom: 10px;
         &:hover{
           border: 2px solid black;
           cursor: pointer;
@@ -187,8 +191,10 @@ body {
     width-left: 30%;
     height: 430px;
     background-color: rgba(0,0,0,0.4);
-    h3 {
-      color: white;
-    }
+      h3 {
+        padding-top: 20px;
+        color: white;
+      }
+
   }
 }

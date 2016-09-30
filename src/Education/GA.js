@@ -4,7 +4,7 @@ import '../style/App.css';
 class GA extends Component {
   render(){
     return(
-      <div id="GAcontent">
+      <div>
         <h3>GA</h3>
         <p>GA is great</p>
       </div>
