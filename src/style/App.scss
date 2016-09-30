@@ -251,6 +251,9 @@ body {
     text-transform: uppercase;
     letter-spacing: 3px;
 
+    .borderbottom {
+      border-bottom: 2px solid black;
+    }
     div {
       border-bottom: 2px solid white;
 

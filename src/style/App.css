@@ -217,6 +217,8 @@ body {
     margin-bottom: 37px;
     text-transform: uppercase;
     letter-spacing: 3px; }
+    .Showcase-panel .projNav .borderbottom {
+      border-bottom: 2px solid black; }
     .Showcase-panel .projNav div {
       border-bottom: 2px solid white; }
       .Showcase-panel .projNav div:hover {
