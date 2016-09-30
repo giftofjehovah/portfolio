@@ -144,10 +144,7 @@ body {
   padding: 100px 300px;
   text-align: center;
 }
-/*Showcase*/
-.Showcase-panel {
-  @include panel(#717163);
-}
+
 /*Contact Me*/
 .Contact-panel {
   @include panel(#CFCDCD);
@@ -241,4 +238,18 @@ body {
     }
 
   }
+}
+
+/*Showcase*/
+.Showcase-panel {
+  @include panel(white);
+  > div {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  div {
+    height: 100%;
+  }
+
 }

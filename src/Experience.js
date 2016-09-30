@@ -45,7 +45,7 @@ class Experience extends Component {
     }
 
     return(
-      <div className="Experience-panel">
+      <div className="Experience-panel" id="work">
         {Content}
 
         <div className="Experience">

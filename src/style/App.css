@@ -113,13 +113,6 @@ body {
   padding: 100px 300px;
   text-align: center; }
 
-/*Showcase*/
-.Showcase-panel {
-  height: 100%;
-  border: 2px solid black;
-  margin: 20px;
-  background-color: #717163; }
-
 /*Contact Me*/
 .Contact-panel {
   height: 100%;
@@ -211,5 +204,17 @@ body {
           font-weight: bolder;
           margin: 0;
           text-transform: uppercase; }
+
+/*Showcase*/
+.Showcase-panel {
+  height: 100%;
+  border: 2px solid black;
+  margin: 20px;
+  background-color: white; }
+  .Showcase-panel > div {
+    display: flex;
+    justify-content: space-around; }
+  .Showcase-panel div {
+    height: 100%; }
 
 /*# sourceMappingURL=App.css.map */
