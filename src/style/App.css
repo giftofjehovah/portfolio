@@ -1,4 +1,5 @@
 /* Mixins */
+/* Panel mixins */
 /*Content*/
 * {
   font-family: 'Open Sans', sans-serif; }
@@ -103,7 +104,6 @@ body {
   top: 50%;
   margin-top: -100px; }
 
-/* Panel mixins */
 /*About*/
 .About-panel {
   height: 100%;
@@ -174,5 +174,30 @@ body {
     .Education-panel > div h3 {
       padding-top: 20px;
       color: white; }
+
+/*Experience*/
+.Experience-panel {
+  display: flex;
+  justify-content: space-around; }
+  .Experience-panel > div:first-child {
+    text-align: center;
+    background-color: pink;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 100%;
+    width: 60%; }
+  .Experience-panel .Experience {
+    height: 100%;
+    width: 40%; }
+    .Experience-panel .Experience div {
+      padding: 10px;
+      padding-left: 30px; }
+      .Experience-panel .Experience div p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bolder;
+        margin: 0;
+        text-transform: uppercase; }
 
 /*# sourceMappingURL=App.css.map */

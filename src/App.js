@@ -3,6 +3,7 @@ import './style/App.css';
 import Cover from './Cover';
 import About from './About';
 import Education from './Education';
+import Experience from './Experience';
 import Showcase from './Showcase';
 import Contact from './Contact';
 import Navbar from './Navbar';
@@ -15,6 +16,7 @@ class App extends Component {
         <Cover />
         <About />
         <Education />
+        <Experience />
         <Showcase />
         <Contact />
       </div>
