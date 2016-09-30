@@ -23,9 +23,10 @@ class Navbar extends Component {
       menuLinks =
       <div className="page">
         <div className="menuContent">
-          <a href="#about">About me</a>
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
           <a href="#work">Work</a>
-          <a href="#contact">Contact Me</a>
+          <a href="#contact">Let's Talk</a>
         </div>
       </div>;
     }
