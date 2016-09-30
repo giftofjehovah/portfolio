@@ -158,7 +158,8 @@ body {
         margin: 0;
         text-transform: uppercase; }
       .Education-panel > div:first-child ul > div {
-        padding: 10px; }
+        padding: 10px;
+        border: 2px solid white; }
         .Education-panel > div:first-child ul > div:hover {
           border: 2px solid black;
           cursor: pointer; }
