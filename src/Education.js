@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 import './style/App.css';
+import GA from './Education/GA';
+import NOC from './Education/NOC';
+import NUS from './Education/NUS';
+import UCB from './Education/UCB';
+
+
 
 class Education extends Component {
   constructor(){
@@ -14,7 +20,7 @@ class Education extends Component {
 
   _GAClick(){
     this.setState({
-      showGA: !this.state.showGA,
+      showGA: true,
       showNUS: false,
       showNOC: false,
       showUCB: false
@@ -23,7 +29,7 @@ class Education extends Component {
   _NUSClick(){
     this.setState({
       showGA: false,
-      showNUS: !this.state.showNUS,
+      showNUS: true,
       showNOC: false,
       showUCB: false
     });
@@ -32,7 +38,7 @@ class Education extends Component {
     this.setState({
       showGA: false,
       showNUS: false,
-      showNOC: !this.state.showNOC,
+      showNOC: true,
       showUCB: false
     });
   }
@@ -41,7 +47,7 @@ class Education extends Component {
       showGA: false,
       showNUS: false,
       showNOC: false,
-      showUCB: !this.state.showUCB
+      showUCB: true
     });
   }
 
@@ -50,16 +56,16 @@ class Education extends Component {
     let Content;
 
     if (this.state.showGA) {
-      Content = <div id="GAcontent"><h3>GA</h3></div>
+      Content = <GA />
     }
     else if (this.state.showNUS) {
-      Content = <div id="NUScontent"><h3>NUS</h3></div>
+      Content = <NUS />
     }
     else if (this.state.showNOC) {
-      Content = <div id="NOCcontent"><h3>NOC</h3></div>
+      Content = <NOC />
     }
     else if (this.state.showUCB) {
-      Content = <div id="UCBcontent"><h3>UC Berkeley</h3></div>
+      Content = <UCB />
     }
 
 
