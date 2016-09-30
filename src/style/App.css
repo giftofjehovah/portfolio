@@ -180,24 +180,36 @@ body {
   display: flex;
   justify-content: space-around; }
   .Experience-panel > div:first-child {
-    text-align: center;
     background-color: pink;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     overflow: hidden;
     height: 100%;
-    width: 60%; }
+    width: 60%;
+    padding: 0 60px; }
+    .Experience-panel > div:first-child h3 {
+      text-align: left;
+      margin-bottom: 0;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      text-transform: uppercase;
+      font-family: 'Archivo Narrow', sans-serif;
+      font-weight: bold;
+      letter-spacing: 3px; }
   .Experience-panel .Experience {
     height: 100%;
     width: 40%; }
     .Experience-panel .Experience div {
       padding: 10px;
       padding-left: 30px; }
-      .Experience-panel .Experience div p {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: bolder;
-        margin: 0;
-        text-transform: uppercase; }
+      .Experience-panel .Experience div div {
+        border: 2px solid white; }
+        .Experience-panel .Experience div div:hover {
+          border: 2px solid black;
+          cursor: pointer; }
+        .Experience-panel .Experience div div p {
+          font-family: 'Open Sans', sans-serif;
+          font-weight: bolder;
+          margin: 0;
+          text-transform: uppercase; }
 
 /*# sourceMappingURL=App.css.map */
