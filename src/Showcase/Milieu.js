@@ -6,7 +6,14 @@ class Milieu extends Component {
     return(
       <div>
         <h3>Milieu</h3>
-        <p>Milieu is great</p>
+        <div className="parentflex">
+          <div>
+            <p>Milieu is great</p>
+          </div>
+          <div>
+            <p>Milieu is quite great</p>
+          </div>
+        </div>
       </div>
     )
   }

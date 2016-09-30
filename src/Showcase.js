@@ -39,15 +39,13 @@ class Showcase extends Component {
     return (
       <div className="Showcase-panel">
         <h1 className="title">Portfolio</h1>
-        <div>
+        <div className="projNav">
           <FeatureButton title="Karakom" cb={this._triggerChange.bind(this)} />
           <FeatureButton title="Cheq" cb={this._triggerChange.bind(this)} />
           <FeatureButton title="Milieu" cb={this._triggerChange.bind(this)} />
           <FeatureButton title="Tompang" cb={this._triggerChange.bind(this)} />
         </div>
-        <div>
-          {this.state.content}
-        </div>
+        {this.state.content}
       </div>
     )
   }

@@ -6,7 +6,14 @@ class Karakom extends Component {
     return(
       <div>
         <h3>Karakom</h3>
-        <p>Karakom is great</p>
+        <div className="parentflex">
+          <div>
+            <p>Karakom is great</p>
+          </div>
+          <div>
+            <p>Karakom is quite great</p>
+          </div>
+        </div>
       </div>
     )
   }

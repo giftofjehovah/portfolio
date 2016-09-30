@@ -6,7 +6,14 @@ class Cheq extends Component {
     return(
       <div>
         <h3>Cheq</h3>
-        <p>Cheq is great</p>
+        <div className="parentflex">
+          <div>
+            <p>Cheq is great</p>
+          </div>
+          <div>
+            <p>Cheq is quite great</p>
+          </div>
+        </div>
       </div>
     )
   }

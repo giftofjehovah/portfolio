@@ -211,10 +211,24 @@ body {
   border: 2px solid black;
   margin: 20px;
   background-color: white; }
-  .Showcase-panel > div {
+  .Showcase-panel .projNav {
     display: flex;
-    justify-content: space-around; }
-  .Showcase-panel div {
-    height: 100%; }
+    justify-content: space-around;
+    margin-bottom: 37px;
+    text-transform: uppercase;
+    letter-spacing: 3px; }
+    .Showcase-panel .projNav div {
+      border-bottom: 2px solid white; }
+      .Showcase-panel .projNav div:hover {
+        border-bottom: 2px solid black; }
+  .Showcase-panel > div {
+    height: 100%;
+    padding: 0 60px; }
+    .Showcase-panel > div h3 {
+      text-align: center; }
+
+.parentflex {
+  display: flex;
+  justify-content: space-around; }
 
 /*# sourceMappingURL=App.css.map */

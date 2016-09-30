@@ -6,7 +6,14 @@ class Tompang extends Component {
     return(
       <div>
         <h3>Tompang</h3>
-        <p>Tompang is great</p>
+        <div className="parentflex">
+          <div>
+            <p>Tompang is great</p>
+          </div>
+          <div>
+            <p>Tompang is quite great</p>
+          </div>
+        </div>
       </div>
     )
   }
