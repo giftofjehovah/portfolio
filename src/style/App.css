@@ -227,10 +227,13 @@ body {
     height: 100%;
     padding: 0 60px; }
     .Showcase-panel > div h3 {
-      text-align: center; }
+      text-align: center;
+      letter-spacing: 3px; }
 
 .parentflex {
   display: flex;
   justify-content: space-around; }
+  .parentflex div {
+    width: 50%; }
 
 /*# sourceMappingURL=App.css.map */

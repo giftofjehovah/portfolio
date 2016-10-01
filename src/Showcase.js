@@ -51,6 +51,7 @@ class Showcase extends Component {
   render(){
 
     let Content = <Karakom />;
+    // let Content = <{this.getState('component')} />;
 
     if (this.state.p2){
       Content = <Tompang />

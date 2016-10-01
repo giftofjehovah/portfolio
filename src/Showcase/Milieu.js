@@ -5,7 +5,7 @@ class Milieu extends Component {
   render(){
     return(
       <div>
-        <h3>Milieu</h3>
+        <h3>MILIEU</h3>
         <div className="parentflex">
           <div>
             <p>Milieu is great</p>

@@ -269,6 +269,7 @@ body {
 
     h3 {
       text-align: center;
+      letter-spacing: 3px;
     }
   }
 
@@ -276,5 +277,9 @@ body {
 
 .parentflex {
   display: flex;
-  justify-content: space-around
+  justify-content: space-around;
+
+  div {
+    width: 50%;
+  }
 }

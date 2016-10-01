@@ -5,7 +5,7 @@ class Cheq extends Component {
   render(){
     return(
       <div>
-        <h3>Cheq</h3>
+        <h3>CHEQ</h3>
         <div className="parentflex">
           <div>
             <p>Cheq is great</p>
