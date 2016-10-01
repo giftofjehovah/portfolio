@@ -234,6 +234,6 @@ body {
   display: flex;
   justify-content: space-around; }
   .parentflex div {
-    width: 50%; }
+    width: 100%; }
 
 /*# sourceMappingURL=App.css.map */
