@@ -113,13 +113,6 @@ body {
   padding: 100px 300px;
   text-align: center; }
 
-/*Contact Me*/
-.Contact-panel {
-  height: 100%;
-  border: 2px solid black;
-  margin: 20px;
-  background-color: #CFCDCD; }
-
 /*Education*/
 .Education-panel {
   text-align: center;
@@ -235,5 +228,44 @@ body {
   justify-content: space-around; }
   .parentflex div {
     width: 100%; }
+
+/*Contact Me*/
+.Contact-bubble {
+  border-radius: 100%;
+  background-color: pink;
+  height: 40px;
+  width: 40px;
+  z-index: 9999;
+  position: fixed;
+  bottom: 15px;
+  right: 15px; }
+
+.Contact-info {
+  height: 150px;
+  width: 100px;
+  bottom: 80px;
+  right: 25px;
+  z-index: 9999;
+  position: fixed;
+  padding: 50px;
+  background-color: white;
+  box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.3); }
+  .Contact-info div a {
+    text-decoration: none; }
+
+.contact-hr {
+  margin: 10px 0px;
+  width: 100%; }
+
+.triangle {
+  z-index: 9999;
+  position: fixed;
+  bottom: 60px;
+  right: 25px;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid white; }
 
 /*# sourceMappingURL=App.css.map */
