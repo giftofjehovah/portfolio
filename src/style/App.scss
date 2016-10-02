@@ -293,7 +293,7 @@ body {
 
 .Contact-info {
   height: 150px;
-  width: 100px;
+  width: 200px;
   bottom: 80px;
   right: 25px;
   z-index: 9999;
@@ -306,6 +306,15 @@ body {
 
     a {
       text-decoration: none;
+      margin-left: 10px;
+      font-size: 13px;
+    }
+
+    p {
+      margin-bottom: 0;
+      display: inline-block;
+      margin-left: 10px;
+      font-size: 13px;
     }
   }
 }

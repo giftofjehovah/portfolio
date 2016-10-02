@@ -242,7 +242,7 @@ body {
 
 .Contact-info {
   height: 150px;
-  width: 100px;
+  width: 200px;
   bottom: 80px;
   right: 25px;
   z-index: 9999;
@@ -251,7 +251,14 @@ body {
   background-color: white;
   box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.3); }
   .Contact-info div a {
-    text-decoration: none; }
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 13px; }
+  .Contact-info div p {
+    margin-bottom: 0;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 13px; }
 
 .contact-hr {
   margin: 10px 0px;

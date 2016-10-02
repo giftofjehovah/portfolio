@@ -27,27 +27,31 @@ class Contact extends Component {
 
       contactLinks =
         <div className="Contact-info">
-        <div>
-          <a href="#about">About</a>
-        </div>
+          <div className="wrapper">
+            <i className="fa fa-github fa-fw"/>
+            <a href="https://github.com/meeniebeanie/">github.com/meeniebeanie</a>
+          </div>
 
-        <hr className="contact-hr"/>
+          <hr className="contact-hr"/>
 
-        <div>
-          <a href="#education">Education</a><br/>
-        </div>
+          <div className="wrapper">
+            <i className="fa fa-envelope-o fa-fw"/>
+            <p>minyen.j@gmail.com</p>
+          </div>
 
-        <hr className="contact-hr"/>
+          <hr className="contact-hr"/>
 
-        <div>
-          <a href="#work">Work</a><br/>
-        </div>
+          <div className="wrapper">
+            <i className="fa fa-linkedin fa-fw"/>
+            <a href="https://www.linkedin.com/in/minyenjen">linkedin.com/minyenjen</a>
+          </div>
 
-        <hr className="contact-hr"/>
+          <hr className="contact-hr"/>
 
-        <div>
-          <a href="#contact">Let's Talk</a><br/>
-        </div>
+          <div className="wrapper">
+            <i className="fa fa-paper-plane-o fa-fw"/>
+            <a href="https://telegram.me/meeniebeanie">telegram.me/meeniebeanie</a>
+          </div>
         </div>;
     }
 
