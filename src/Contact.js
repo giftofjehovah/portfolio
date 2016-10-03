@@ -36,7 +36,7 @@ class Contact extends Component {
 
           <div className="wrapper">
             <i className="fa fa-envelope-o fa-fw"/>
-            <p>minyen.j@gmail.com</p>
+            <a href="mailto:minyen.j@gmail.com?subject=Hey%20Jen!">minyen.j@gmail.com</a>
           </div>
 
           <hr className="contact-hr"/>
@@ -49,7 +49,7 @@ class Contact extends Component {
           <hr className="contact-hr"/>
 
           <div className="wrapper">
-            <i className="fa fa-paper-plane-o fa-fw"/>
+            <i className="fa fa-paper-plane-o fa-w"/>
             <a href="https://telegram.me/meeniebeanie">telegram.me/meeniebeanie</a>
           </div>
         </div>;
@@ -58,6 +58,7 @@ class Contact extends Component {
     return(
       <div>
         <div onClick={this._contactClick.bind(this)} className="Contact-bubble">
+          <i className="fa fa-comment fa-2x"/>
         </div>
         {contactLinks}
         {triangle}

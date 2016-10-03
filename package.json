@@ -6,6 +6,7 @@
     "react-scripts": "0.4.3"
   },
   "dependencies": {
+    "in-view": "^0.4.3",
     "react": "^15.3.2",
     "react-burger-menu": "^1.10.4",
     "react-dom": "^15.3.2"
