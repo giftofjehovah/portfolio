@@ -15,7 +15,6 @@ $blue-white: #EAEAF1;
 
 /* Panel mixins */
 @mixin panel($bg-color){
-  height: 100%;
   border: 2px solid black;
   margin: 20px;
   background-color: $bg-color;
@@ -154,13 +153,14 @@ body {
   background-attachment: fixed;
   overflow: hidden;
   display: flex;
-  height: 100%;
+  // height: 100%;
 
   > div:first-child {
     background-color: white;
     padding: 0 60px;
     width: 20%;
     flex-grow: 1;
+
     h1 {
       @include title(left);
     }
@@ -187,26 +187,32 @@ body {
 
   .edu-info {
     flex-grow: 5;
-    > div {
-      background-color: rgba(0,0,0,0.4);
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
 
-      .edu-details{
-        padding: 40px;
-        height: 100%;
-        width: 100%;
-        text-align: left;
+    .edu-details {
 
-        h6 {
-          padding-top: 20px;
-          color: white;
-        }
-      }
-
+      p {display: inline;}
     }
+
+
+    // > div {
+    //   background-color: rgba(0,0,0,0.4);
+    //   // height: 100%;
+    //   display: flex;
+    //   align-items: center;
+    //   justify-content: center;
+    //
+    //   .edu-details{
+    //     padding: 40px;
+    //     // height: 100%;
+    //     width: 100%;
+    //     text-align: left;
+    //
+    //     h6 {
+    //       padding-top: 20px;
+    //       color: white;
+    //     }
+    //   }
+    // }
   }
 }
 
@@ -218,7 +224,7 @@ body {
     background-color:pink;
     background-size: cover;
     overflow: hidden;
-    height: 100%;
+    // height: 100%;
     width: 60%;
     padding: 0 60px;
     h3 {
@@ -227,7 +233,7 @@ body {
   }
 
   .Experience {
-    height: 100%;
+    // height: 100%;
     width: 40%;
 
     div {
@@ -277,7 +283,7 @@ body {
   }
 
   .showcase-content {
-    height: 100%;
+    // height: 100%;
     padding: 30px 100px;
 
     h3 {

@@ -106,7 +106,6 @@ body {
 
 /*About*/
 .About-panel {
-  height: 100%;
   border: 2px solid black;
   margin: 20px;
   background-color: "none";
@@ -121,8 +120,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow: hidden;
-  display: flex;
-  height: 100%; }
+  display: flex; }
   .Education-panel > div:first-child {
     background-color: white;
     padding: 0 60px;
@@ -156,20 +154,8 @@ body {
           cursor: pointer; }
   .Education-panel .edu-info {
     flex-grow: 5; }
-    .Education-panel .edu-info > div {
-      background-color: rgba(0, 0, 0, 0.4);
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-      .Education-panel .edu-info > div .edu-details {
-        padding: 40px;
-        height: 100%;
-        width: 100%;
-        text-align: left; }
-        .Education-panel .edu-info > div .edu-details h6 {
-          padding-top: 20px;
-          color: white; }
+    .Education-panel .edu-info .edu-details p {
+      display: inline; }
 
 /*Experience*/
 .Experience-panel {
@@ -179,7 +165,6 @@ body {
     background-color: pink;
     background-size: cover;
     overflow: hidden;
-    height: 100%;
     width: 60%;
     padding: 0 60px; }
     .Experience-panel > div:first-child h3 {
@@ -192,7 +177,6 @@ body {
       font-weight: bold;
       letter-spacing: 3px; }
   .Experience-panel .Experience {
-    height: 100%;
     width: 40%; }
     .Experience-panel .Experience div {
       margin: 10px;
@@ -210,7 +194,6 @@ body {
 
 /*Showcase*/
 .Showcase-panel {
-  height: 100%;
   border: 2px solid black;
   margin: 20px;
   background-color: white; }
@@ -229,7 +212,6 @@ body {
       .Showcase-panel .projNav div:hover {
         border-bottom: 2px solid black; }
   .Showcase-panel .showcase-content {
-    height: 100%;
     padding: 30px 100px; }
     .Showcase-panel .showcase-content h3 {
       text-align: left;
