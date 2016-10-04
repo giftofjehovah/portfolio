@@ -90,7 +90,9 @@ class Education extends Component {
             </div>
           </ul>
         </div>
+        <div className="edu-info">
           {Content}
+        </div>
       </div>
     )
   }

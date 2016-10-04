@@ -4,9 +4,12 @@ import '../style/App.css';
 class UCB extends Component {
   render(){
     return(
-      <div id="UCBcontent">
-        <h3>UCB</h3>
-        <p>UCB is great</p>
+      <div>
+        <div className="edu-details">
+          <h6>UCB</h6>
+          <h6>Web Development Immersive</h6>
+          <p>GA is great</p>
+        </div>
       </div>
     )
   }

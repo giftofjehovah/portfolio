@@ -4,9 +4,12 @@ import '../style/App.css';
 class NUS extends Component {
   render(){
     return(
-      <div id="NUScontent">
-        <h3>NUS</h3>
-        <p>NUS is great</p>
+      <div>
+        <div className="edu-details">
+          <h6>NUS</h6>
+          <h6>Web Development Immersive</h6>
+          <p>GA is great</p>
+        </div>
       </div>
     )
   }

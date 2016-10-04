@@ -4,9 +4,12 @@ import '../style/App.css';
 class NOC extends Component {
   render(){
     return(
-      <div id="NOCcontent">
-        <h3>NOC</h3>
-        <p>NOC is great</p>
+      <div>
+        <div className="edu-details">
+          <h6>NOC</h6>
+          <h6>Web Development Immersive</h6>
+          <p>GA is great</p>
+        </div>
       </div>
     )
   }

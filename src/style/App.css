@@ -126,6 +126,7 @@ body {
   .Education-panel > div:first-child {
     background-color: white;
     padding: 0 60px;
+    width: 20%;
     flex-grow: 1; }
     .Education-panel > div:first-child h1 {
       text-align: left;
@@ -153,12 +154,22 @@ body {
         .Education-panel > div:first-child ul div:hover {
           border: 2px solid black;
           cursor: pointer; }
-  .Education-panel > div {
-    background-color: rgba(0, 0, 0, 0.4);
+  .Education-panel .edu-info {
     flex-grow: 5; }
-    .Education-panel > div h6 {
-      padding-top: 20px;
-      color: white; }
+    .Education-panel .edu-info > div {
+      background-color: rgba(0, 0, 0, 0.4);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .Education-panel .edu-info > div .edu-details {
+        padding: 40px;
+        height: 100%;
+        width: 100%;
+        text-align: left; }
+        .Education-panel .edu-info > div .edu-details h6 {
+          padding-top: 20px;
+          color: white; }
 
 /*Experience*/
 .Experience-panel {

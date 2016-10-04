@@ -159,6 +159,7 @@ body {
   > div:first-child {
     background-color: white;
     padding: 0 60px;
+    width: 20%;
     flex-grow: 1;
     h1 {
       @include title(left);
@@ -184,15 +185,28 @@ body {
     }
   }
 
-  > div {
-    background-color: rgba(0,0,0,0.4);
+  .edu-info {
     flex-grow: 5;
+    > div {
+      background-color: rgba(0,0,0,0.4);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
-      h6 {
-        padding-top: 20px;
-        color: white;
+      .edu-details{
+        padding: 40px;
+        height: 100%;
+        width: 100%;
+        text-align: left;
+
+        h6 {
+          padding-top: 20px;
+          color: white;
+        }
       }
 
+    }
   }
 }
 
