@@ -5,7 +5,8 @@ class GA extends Component {
   render(){
     return(
       <div>
-        <h3>GA</h3>
+        <h6>General Assembly</h6>
+        <h6>Web Development Immersive</h6>
         <p>GA is great</p>
       </div>
     )

@@ -27,6 +27,9 @@ class Contact extends Component {
 
       contactLinks =
         <div className="Contact-info">
+          <div>
+            <h6>LET'S TALK!</h6>
+          </div>
           <div className="wrapper">
             <i className="fa fa-github fa-fw"/>
             <a href="https://github.com/meeniebeanie/">github.com/meeniebeanie</a>

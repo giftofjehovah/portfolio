@@ -120,13 +120,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow: hidden; }
+  overflow: hidden;
+  display: flex;
+  height: 100%; }
   .Education-panel > div:first-child {
-    width: 30%;
-    height: 430px;
-    float: left;
     background-color: white;
-    padding: 0 60px; }
+    padding: 0 60px;
+    flex-grow: 1; }
     .Education-panel > div:first-child h1 {
       text-align: left;
       margin-bottom: 0;
@@ -154,10 +154,9 @@ body {
           border: 2px solid black;
           cursor: pointer; }
   .Education-panel > div {
-    width-left: 30%;
-    height: 430px;
-    background-color: rgba(0, 0, 0, 0.4); }
-    .Education-panel > div h3 {
+    background-color: rgba(0, 0, 0, 0.4);
+    flex-grow: 5; }
+    .Education-panel > div h6 {
       padding-top: 20px;
       color: white; }
 
@@ -254,15 +253,18 @@ body {
     color: white; }
 
 .Contact-info {
-  height: 150px;
+  height: 200px;
   width: 200px;
-  bottom: 95px;
-  right: 25px;
+  bottom: 105px;
+  right: 40px;
   z-index: 9999;
   position: fixed;
   padding: 50px;
   background-color: white;
   box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.3); }
+  .Contact-info div h6 {
+    letter-spacing: 3px;
+    font-weight: 600; }
   .Contact-info div a {
     text-decoration: none;
     margin-left: 10px;
@@ -280,8 +282,8 @@ body {
 .triangle {
   z-index: 9999;
   position: fixed;
-  bottom: 75px;
-  right: 25px;
+  bottom: 85px;
+  right: 40px;
   width: 0;
   height: 0;
   border-top: 20px solid transparent;
