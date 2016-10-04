@@ -216,8 +216,9 @@ body {
     width: 40%;
 
     div {
-      padding: 10px;
-      padding-left: 30px;
+      margin: 10px;
+      // padding: 10px;
+      padding-left: 25px;
       div {
         border: 2px solid white;
 
@@ -242,6 +243,7 @@ body {
   .projNav {
     display: flex;
     justify-content: space-around;
+    margin-top: 20px;
     margin-bottom: 37px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -251,6 +253,7 @@ body {
     }
     div {
       border-bottom: 2px solid white;
+      cursor: pointer;
 
       &:hover{
         border-bottom: 2px solid black;
@@ -258,24 +261,33 @@ body {
     }
   }
 
-  > div {
+  .showcase-content {
     height: 100%;
-    padding: 0 60px;
+    padding: 30px 100px;
 
     h3 {
-      text-align: center;
+      text-align: left;
       letter-spacing: 3px;
+      margin-bottom: 20px;
+
+      a {text-decoration: none}
     }
   }
 
 }
 
 .parentflex {
-  display: flex;
-  justify-content: space-around;
 
-  div {
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  p {
+    margin-right: 40px
+  }
+
+  .description {
+    div {
+      margin-right: 40px
+    }
   }
 }
 
@@ -299,7 +311,6 @@ body {
 
   }
 }
-
 .Contact-info {
   height: 150px;
   width: 200px;

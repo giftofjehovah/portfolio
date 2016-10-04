@@ -185,8 +185,8 @@ body {
     height: 100%;
     width: 40%; }
     .Experience-panel .Experience div {
-      padding: 10px;
-      padding-left: 30px; }
+      margin: 10px;
+      padding-left: 25px; }
       .Experience-panel .Experience div div {
         border: 2px solid white; }
         .Experience-panel .Experience div div:hover {
@@ -207,27 +207,34 @@ body {
   .Showcase-panel .projNav {
     display: flex;
     justify-content: space-around;
+    margin-top: 20px;
     margin-bottom: 37px;
     text-transform: uppercase;
     letter-spacing: 3px; }
     .Showcase-panel .projNav .borderbottom {
       border-bottom: 2px solid black; }
     .Showcase-panel .projNav div {
-      border-bottom: 2px solid white; }
+      border-bottom: 2px solid white;
+      cursor: pointer; }
       .Showcase-panel .projNav div:hover {
         border-bottom: 2px solid black; }
-  .Showcase-panel > div {
+  .Showcase-panel .showcase-content {
     height: 100%;
-    padding: 0 60px; }
-    .Showcase-panel > div h3 {
-      text-align: center;
-      letter-spacing: 3px; }
+    padding: 30px 100px; }
+    .Showcase-panel .showcase-content h3 {
+      text-align: left;
+      letter-spacing: 3px;
+      margin-bottom: 20px; }
+      .Showcase-panel .showcase-content h3 a {
+        text-decoration: none; }
 
 .parentflex {
   display: flex;
-  justify-content: space-around; }
-  .parentflex div {
-    width: 100%; }
+  justify-content: space-between; }
+  .parentflex p {
+    margin-right: 40px; }
+  .parentflex .description div {
+    margin-right: 40px; }
 
 /*Contact Me*/
 .Contact-bubble {
