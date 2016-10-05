@@ -114,19 +114,42 @@ body {
 
 /*Education*/
 .Education-panel {
-  text-align: center;
-  background-image: url("https://static.pexels.com/photos/7100/iphone-desk-laptop-notebook.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  overflow: hidden;
-  display: flex; }
-  .Education-panel > div:first-child {
-    background-color: white;
-    padding: 0 60px;
-    width: 20%;
-    flex-grow: 1; }
-    .Education-panel > div:first-child h1 {
+  display: flex;
+  justify-content: space-around; }
+  .Education-panel .Education {
+    width: 40%; }
+    .Education-panel .Education > div {
+      margin: 15px 15px 30px 100px; }
+      .Education-panel .Education > div h1 {
+        text-align: left;
+        margin-bottom: 0;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        font-family: 'Archivo Narrow', sans-serif;
+        font-weight: bold;
+        letter-spacing: 3px; }
+      .Education-panel .Education > div div {
+        border: 2px solid white; }
+        .Education-panel .Education > div div:hover {
+          border: 2px solid black;
+          cursor: pointer; }
+        .Education-panel .Education > div div p {
+          font-family: 'Open Sans', sans-serif;
+          font-weight: bolder;
+          margin: 0;
+          text-transform: uppercase;
+          color: #1EAEDB; }
+  .Education-panel .Education-info {
+    overflow: hidden;
+    background-image: url("https://static.pexels.com/photos/7100/iphone-desk-laptop-notebook.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 60%;
+    padding: 0 60px; }
+    .Education-panel .Education-info h3 {
       text-align: left;
       margin-bottom: 0;
       padding-top: 20px;
@@ -135,36 +158,18 @@ body {
       font-family: 'Archivo Narrow', sans-serif;
       font-weight: bold;
       letter-spacing: 3px; }
-    .Education-panel > div:first-child ul {
-      text-align: left; }
-      .Education-panel > div:first-child ul p {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: bolder;
-        margin: 0;
-        text-transform: uppercase; }
-      .Education-panel > div:first-child ul .bordered {
-        border: 2px solid black;
-        cursor: pointer; }
-      .Education-panel > div:first-child ul div {
-        padding: 5px 5px 0 5px;
-        border: 2px solid white;
-        margin-bottom: 10px; }
-        .Education-panel > div:first-child ul div:hover {
-          border: 2px solid black;
-          cursor: pointer; }
-  .Education-panel .edu-info {
-    flex-grow: 5; }
-    .Education-panel .edu-info .edu-details p {
-      display: inline; }
 
 /*Experience*/
 .Experience-panel {
   display: flex;
   justify-content: space-around; }
   .Experience-panel > div:first-child {
-    background-color: pink;
-    background-size: cover;
     overflow: hidden;
+    background-image: url("https://static.pexels.com/photos/7100/iphone-desk-laptop-notebook.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 60%;
     padding: 0 60px; }
     .Experience-panel > div:first-child h3 {
@@ -178,19 +183,28 @@ body {
       letter-spacing: 3px; }
   .Experience-panel .Experience {
     width: 40%; }
-    .Experience-panel .Experience div {
-      margin: 10px;
-      padding-left: 25px; }
-      .Experience-panel .Experience div div {
+    .Experience-panel .Experience > div {
+      margin: 15px 15px 30px 45px; }
+      .Experience-panel .Experience > div h1 {
+        text-align: left;
+        margin-bottom: 0;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        font-family: 'Archivo Narrow', sans-serif;
+        font-weight: bold;
+        letter-spacing: 3px; }
+      .Experience-panel .Experience > div div {
         border: 2px solid white; }
-        .Experience-panel .Experience div div:hover {
+        .Experience-panel .Experience > div div:hover {
           border: 2px solid black;
           cursor: pointer; }
-        .Experience-panel .Experience div div p {
+        .Experience-panel .Experience > div div p {
           font-family: 'Open Sans', sans-serif;
           font-weight: bolder;
           margin: 0;
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          color: #1EAEDB; }
 
 /*Showcase*/
 .Showcase-panel {

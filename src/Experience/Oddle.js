@@ -6,7 +6,7 @@ class Oddle extends Component {
     return(
       <div>
         <h3>Oddle</h3>
-        <p>Oddle is great</p>
+        <p>I created offline marketing strategies for clients and managed post-sales processes to ensure client success.</p>
       </div>
     )
   }

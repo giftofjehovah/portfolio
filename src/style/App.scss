@@ -146,84 +146,63 @@ body {
 
 /*Education*/
 .Education-panel {
-  text-align: center;
-  background-image: url('https://static.pexels.com/photos/7100/iphone-desk-laptop-notebook.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  overflow: hidden;
   display: flex;
-  // height: 100%;
+  justify-content: space-around;
 
-  > div:first-child {
-    background-color: white;
-    padding: 0 60px;
-    width: 20%;
-    flex-grow: 1;
+    .Education {
+      // height: 100%;
+      width: 40%;
+      > div {
+        margin: 15px 15px 30px 100px;
+        // padding: 10px;
+        // padding-left: 25px;
+        h1 {
+          @include title(left);
+        }
+        div {
+          border: 2px solid white;
 
-    h1 {
-      @include title(left);
-    }
-    ul {
-      text-align: left;
-      p {
-        @include content-paragraph;
-      }
-      .bordered {
-        border: 2px solid black;
-        cursor: pointer;
-      }
-      div {
-        padding: 5px 5px 0 5px;
-        border: 2px solid white;
-        margin-bottom: 10px;
-        &:hover{
-          border: 2px solid black;
-          cursor: pointer;
+          &:hover{
+            border: 2px solid black;
+            cursor: pointer;
+          }
+
+          p {
+            @include content-paragraph;
+            color: #1EAEDB;
+          }
         }
       }
     }
-  }
 
-  .edu-info {
-    flex-grow: 5;
-
-    .edu-details {
-
-      p {display: inline;}
+    .Education-info {
+      overflow: hidden;
+      background-image: url("https://static.pexels.com/photos/7100/iphone-desk-laptop-notebook.jpg");
+      background-size: cover;
+      background-position: top center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      // height: 100%;
+      width: 60%;
+      padding: 0 60px;
+      h3 {
+        @include title(left);
+      }
     }
-
-
-    // > div {
-    //   background-color: rgba(0,0,0,0.4);
-    //   // height: 100%;
-    //   display: flex;
-    //   align-items: center;
-    //   justify-content: center;
-    //
-    //   .edu-details{
-    //     padding: 40px;
-    //     // height: 100%;
-    //     width: 100%;
-    //     text-align: left;
-    //
-    //     h6 {
-    //       padding-top: 20px;
-    //       color: white;
-    //     }
-    //   }
-    // }
-  }
 }
+
 
 /*Experience*/
 .Experience-panel {
   display: flex;
   justify-content: space-around;
   > div:first-child {
-    background-color:pink;
-    background-size: cover;
     overflow: hidden;
+    background-image: url("https://static.pexels.com/photos/7100/iphone-desk-laptop-notebook.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     // height: 100%;
     width: 60%;
     padding: 0 60px;
@@ -236,10 +215,11 @@ body {
     // height: 100%;
     width: 40%;
 
-    div {
-      margin: 10px;
-      // padding: 10px;
-      padding-left: 25px;
+    > div {
+        margin: 15px 15px 30px 45px;
+        h1 {
+          @include title(left);
+        }
       div {
         border: 2px solid white;
 
@@ -250,6 +230,7 @@ body {
 
         p {
           @include content-paragraph;
+          color: #1EAEDB
         }
       }
     }

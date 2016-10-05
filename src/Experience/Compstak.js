@@ -6,7 +6,7 @@ class Compstak extends Component {
     return(
       <div>
         <h3>Compstak</h3>
-        <p>Compstak is great</p>
+        <p>I created marketing content for the team; making things from promotional videos for the landing page to creating infographics for the blog. I also manage Compstak's social media accounts- ensuring that audience is always engaged with relevant and interesting content.</p>
       </div>
     )
   }

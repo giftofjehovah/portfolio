@@ -50,7 +50,7 @@ class Education extends Component {
 
   render(){
 
-    let Content;
+    let Content = <div className="Education-info"></div>;
 
     if (this.state.showGA) {
       Content = <GA />
@@ -67,9 +67,9 @@ class Education extends Component {
 
     return(
       <div className="Education-panel" id="education">
-        <div>
-          <h1>Education</h1>
-          <ul>
+        <div className="Education">
+          <div>
+            <h1>Education</h1>
             <div className={this._getClassName('showGA')} onClick={this._GAClick.bind(this)}>
               <p>General Assembly</p>
               <li>Web Development Immersive</li>
@@ -88,11 +88,11 @@ class Education extends Component {
               <p>University of California, Berkeley</p>
               <li>Summer Exchange Program</li>
             </div>
-          </ul>
+          </div>
         </div>
-        <div className="edu-info">
-          {Content}
-        </div>
+
+        {Content}
+
       </div>
     )
   }

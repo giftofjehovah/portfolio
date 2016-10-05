@@ -49,8 +49,8 @@ class Experience extends Component {
         {Content}
 
         <div className="Experience">
-          <h1 className="title">Experience</h1>
             <div>
+              <h1>Experience</h1>
               <div onClick={this._CSClick.bind(this)}>
                 <p>CompStak</p>
                 <li>Marketing Intern</li>
